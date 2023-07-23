@@ -1,16 +1,14 @@
 import React from "react";
-import { PictureSectionContainerStyle, IconContainerStyle, IllustrationStyle, PictureSectionTextStyle } from "./PictureSection.style";
+import { PictureSectionContainerStyle, IconContainerStyle, IllustrationStyle, PictureSectionTextStyle, IconStyle } from "./PictureSection.style";
 import Illustration from "../../assets/illustration.svg";
 import Logo from "../../assets/logo.svg";
 
 export const PictureSection = () => {
   return (
     <PictureSectionContainerStyle>
-      <IconContainerStyle>
-        <img src={Logo} />
-      </IconContainerStyle>
+      <IconStyle src={Logo} />
       <IllustrationStyle src={Illustration} />
-      <PictureSectionTextStyle>Start for free & Get Attractive offers Today</PictureSectionTextStyle>
+      <PictureSectionTextStyle>Start for free & Get Attractive offers Today!</PictureSectionTextStyle>
     </PictureSectionContainerStyle>
   );
 };
