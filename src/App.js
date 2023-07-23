@@ -1,9 +1,14 @@
+import { Theme } from "./Theme";
+import GlobalCSS from "./globalStyles/GlobalStyles.style";
+import { RegistrationForm } from "./components/registrationForm/RegistrationForm";
+
 const App = () => {
   return (
-    <div>
-      <h1>Hello</h1>
-    </div>
+    <Theme>
+      <GlobalCSS />
+      <RegistrationForm />
+    </Theme>
   );
-}
+};
 
 export default App;
