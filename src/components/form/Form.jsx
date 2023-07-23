@@ -1,9 +1,12 @@
 import React from "react";
+import { SocialSection } from "../socialSection/SocialSection";
+import { FormSection } from "../formSection/FormSection";
 
 export const Form = () => {
   return (
-    <>
-      <form></form>
-    </>
+    <div>
+      <SocialSection />
+      <FormSection />
+    </div>
   );
 };
