@@ -11,8 +11,8 @@ export const SocialSection = () => {
       <SocialSectionTextStyle>Already have an account?</SocialSectionTextStyle>
       <SocialSectionLinkStyle>Log in</SocialSectionLinkStyle>
       <SocialSectionButtonContainerStyle>
-        <Button iconSrc={GoogleIcon} text={"sign up"} />
-        <Button iconSrc={FacebookIcon} text={"sign up"} />
+        <Button iconSrc={GoogleIcon} text={"sign up"} buttonVariant={"googleButton"} />
+        <Button iconSrc={FacebookIcon} text={"sign up"} buttonVariant={"fbButton"} />
       </SocialSectionButtonContainerStyle>
     </SocialSectionContainerStyle>
   );
