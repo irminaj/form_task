@@ -1,25 +1,25 @@
 import React from "react";
-import { FormInputContainerStyle, FormInputStyle } from "./FormSection.style";
+import { FormInputContainerStyle, FormInputLabelStyle, FormInputStyle, FormSectionButtonStyle, FormSectionContainerStyle, FormSectionHeadingStyle } from "./FormSection.style";
 
 export const FormSection = () => {
   return (
-    <div>
-      <h1>Or</h1>
+    <FormSectionContainerStyle>
+      <FormSectionHeadingStyle>Or</FormSectionHeadingStyle>
       <form>
         <FormInputContainerStyle>
-          <label>Name</label>
+          <FormInputLabelStyle>Name</FormInputLabelStyle>
           <FormInputStyle placeholder="&#xf007;  &nbsp; Joy Shaheb"></FormInputStyle>
         </FormInputContainerStyle>
         <FormInputContainerStyle>
-          <label>Email</label>
+          <FormInputLabelStyle>Email</FormInputLabelStyle>
           <FormInputStyle placeholder="&#xf0e0;  &nbsp; abc@gmail.com"></FormInputStyle>
         </FormInputContainerStyle>
         <FormInputContainerStyle>
-          <label>Password</label>
+          <FormInputLabelStyle>Password</FormInputLabelStyle>
           <FormInputStyle placeholder="&#xf023;  &nbsp; &#xf111; &#xf111; &#xf111; &#xf111; &#xf111; &#xf111; &#xf111;"></FormInputStyle>
         </FormInputContainerStyle>
-        <button>Submit</button>
+        <FormSectionButtonStyle>Submit</FormSectionButtonStyle>
       </form>
-    </div>
+    </FormSectionContainerStyle>
   );
 };
