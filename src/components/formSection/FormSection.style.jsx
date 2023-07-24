@@ -49,3 +49,8 @@ export const FormSectionButtonStyle = styled.button`
   margin-top: 20px;
   outline: none;
 `;
+
+export const ErrorTextStyle = styled.p`
+  color: ${(props) => props.theme.colors.primary};
+  margin: 5px 0 0 0;
+`;
